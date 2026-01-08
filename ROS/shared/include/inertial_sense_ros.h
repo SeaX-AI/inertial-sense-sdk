@@ -37,11 +37,11 @@
 #ifdef ROS2
 #include <chrono>
 #include <memory>
-#include "rclcpp/rclcpp/rclcpp.hpp"
-#include "rclcpp/rclcpp/timer.hpp"
-#include "rclcpp/rclcpp/time.hpp"
-#include "rclcpp/rclcpp/publisher.hpp"
-#include "std_msgs/std_msgs/msg/string.hpp"
+#include "rclcpp/rclcpp.hpp"
+#include "rclcpp/timer.hpp"
+#include "rclcpp/time.hpp"
+#include "rclcpp/publisher.hpp"
+#include "std_msgs/msg/string.hpp"
 #include "sensor_msgs/msg/imu.hpp"
 #include "sensor_msgs/msg/magnetic_field.hpp"
 #include "sensor_msgs/msg/fluid_pressure.hpp"
@@ -62,12 +62,12 @@
 #include "inertial_sense_ros2/msg/didins2.hpp"
 #include "inertial_sense_ros2/msg/didins1.hpp"
 #include "inertial_sense_ros2/msg/didins4.hpp"
-#include "nav_msgs/nav_msgs/msg/odometry.hpp"
-#include "std_srvs/std_srvs/srv/trigger.hpp"
-#include "std_msgs/std_msgs/msg/header.hpp"
-#include "geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp"
-#include "geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp"
-#include "diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp"
+#include "nav_msgs/msg/odometry.hpp"
+#include "std_srvs/srv/trigger.hpp"
+#include "std_msgs/msg/header.hpp"
+#include "geometry_msgs/msg/vector3_stamped.hpp"
+#include "geometry_msgs/msg/pose_with_covariance_stamped.hpp"
+#include "diagnostic_msgs/msg/diagnostic_array.hpp"
 using namespace rclcpp;
 using namespace inertial_sense_ros2;
 #endif

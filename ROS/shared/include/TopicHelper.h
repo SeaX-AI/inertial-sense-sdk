@@ -23,7 +23,7 @@
 
 #include "InertialSense.h"
 #ifdef ROS2
-#include "rclcpp/rclcpp/rclcpp.hpp"
+#include "rclcpp/rclcpp.hpp"
 #include <inertial_sense_ros2/msg/didins1.hpp>
 #include <inertial_sense_ros2/msg/didins2.hpp>
 #include <inertial_sense_ros2/msg/didins4.hpp>
@@ -36,7 +36,7 @@
 #include <sensor_msgs/msg/imu.hpp>
 #include <sensor_msgs/msg/magnetic_field.hpp>
 #include <sensor_msgs/msg/nav_sat_fix.hpp>
-#include "diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp"
+#include "diagnostic_msgs/msg/diagnostic_array.hpp"
 #include "inertial_sense_ros2/msg/rtk_rel.hpp"
 #include "inertial_sense_ros2/msg/rtk_info.hpp"
 #include "inertial_sense_ros2/msg/glonass_ephemeris.hpp"

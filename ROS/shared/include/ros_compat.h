@@ -10,7 +10,7 @@
 #define EVALTOOL_ROS_COMPAT_H
 
 #if defined(ROS2)
-    #include "rclcpp/rclcpp/rclcpp.hpp"
+    #include "rclcpp/rclcpp.hpp"
 
     #define ROS_ERROR(msg) RCLCPP_ERROR(rclcpp::get_logger("Inertial_Sense_ROS"), msg)
     #define ROS_ERROR_STREAM(msg) RCLCPP_ERROR_STREAM(rclcpp::get_logger("Inertial_Sense_ROS"), msg)
